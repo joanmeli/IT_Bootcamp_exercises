@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IT_Bootcamp_exercises.iml" filepath="$PROJECT_DIR$/IT_Bootcamp_exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mean_cities_temps/mean_cities_temps.iml" filepath="$PROJECT_DIR$/mean_cities_temps/mean_cities_temps.iml" />
+    </modules>
+  </component>
+</project>
