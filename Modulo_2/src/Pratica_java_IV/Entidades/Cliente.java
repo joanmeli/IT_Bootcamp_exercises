@@ -10,4 +10,11 @@ public class Cliente {
         this.nome = nome;
         this.sobrenome = sobrenome;
     }
+
+    @Override
+    public String toString(){
+        return "\n" + "ID: " + this.ID +
+                " Nome: " + this.nome +
+                " Sobrenome: " + this.sobrenome;
+    }
 }

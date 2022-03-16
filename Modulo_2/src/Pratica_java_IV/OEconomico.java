@@ -12,5 +12,6 @@ public class OEconomico {
                 new Cliente(2, "Davi", "Santos"),
                 new Cliente(3, "Késia", "Silva")
         ));
+        System.out.println(clientes);
     }
 }
