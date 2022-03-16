@@ -22,8 +22,12 @@ public class Main {
                 new Veiculo(Marca.TOYOTA, "Corola", 1200.00),
                 new Veiculo(Marca.TOYOTA, "Fortuner", 3000.00),
                 new Veiculo(Marca.RENAULT, "Logan", 950.00)
-                ));
-
+        ));
         Garagem super_garagem = new Garagem(123, carros);
+        System.out.println(super_garagem.getVeiculos());
+        System.out.println("-------------------------------------");
+        super_garagem.getVeiculos().sort((a,b) -> a.getPreco().compareTo(b.getPreco()));
+        System.out.println(super_garagem.getVeiculos());
+
     }
 }
