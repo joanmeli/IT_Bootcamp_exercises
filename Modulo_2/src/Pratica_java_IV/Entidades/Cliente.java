@@ -17,4 +17,8 @@ public class Cliente {
                 " Nome: " + this.nome +
                 " Sobrenome: " + this.sobrenome;
     }
+
+    public int getID() {
+        return ID;
+    }
 }
