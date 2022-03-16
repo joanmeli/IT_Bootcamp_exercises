@@ -7,11 +7,14 @@ import java.util.Arrays;
 
 public class OEconomico {
     public static void main(String[] args) {
-        ArrayList<Cliente> clientes = new ArrayList<Cliente>(Arrays.asList(
+        ArrayList<Cliente> clientes = new ArrayList<>(Arrays.asList(
                 new Cliente(1, "Joan", "Silva"),
                 new Cliente(2, "Davi", "Santos"),
                 new Cliente(3, "Késia", "Silva")
         ));
         System.out.println(clientes);
+        clientes.remove(1);
+        System.out.println(clientes);
+
     }
 }
