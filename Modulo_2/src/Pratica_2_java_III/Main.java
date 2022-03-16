@@ -28,6 +28,9 @@ public class Main {
         System.out.println("-------------------------------------");
         super_garagem.getVeiculos().sort((a,b) -> a.getPreco().compareTo(b.getPreco()));
         System.out.println(super_garagem.getVeiculos());
+        System.out.println("-------------------------------------");
+        super_garagem.getVeiculos().sort((a,b) -> a.getMarca().compareTo(b.getMarca()));
+        System.out.println(super_garagem.getVeiculos());
 
     }
 }
